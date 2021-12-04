@@ -20,7 +20,9 @@ const Home: NextPage = () => {
           const text = `id: ${i}`;
           return (
             <li key={i}>
-              <Link href={href}>{text}</Link>
+              <Link href={href}>
+                <a>{text}</a>
+              </Link>
             </li>
           );
         })

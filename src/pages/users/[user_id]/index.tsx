@@ -8,7 +8,7 @@ const UserPage: NextPage = () => {
   return (
     <div>
       <h1>user_id: {router.query.user_id}</h1>
-      <Link href="/">トップへ</Link>
+      <Link href="/"><a>トップへ</a></Link>
     </div>
   )
 }
